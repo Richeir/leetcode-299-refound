@@ -30,3 +30,15 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### LeetCode Plugin ###
+.vscode/
+.lcpr_data
+*.md
+*.json
