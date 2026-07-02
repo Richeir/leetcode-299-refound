@@ -14,7 +14,7 @@ type NumArray struct {
 	PreSum []int
 }
 
-func Constructor(nums []int) NumArray {
+func Constructor303(nums []int) NumArray {
 	preSum := make([]int, len(nums)+1)
 	for i := 1; i < len(preSum); i++ {
 		preSum[i] = preSum[i-1] + nums[i-1]
