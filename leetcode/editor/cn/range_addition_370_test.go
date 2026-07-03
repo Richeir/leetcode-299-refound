@@ -10,6 +10,7 @@ type Difference struct {
 }
 
 func NewDifference(nums []int) *Difference {
+	assert(len(nums) > 0)
 	diff := make([]int, len(nums))
 	diff[0] = nums[0]
 	for i := 1; i < len(nums); i++ {
